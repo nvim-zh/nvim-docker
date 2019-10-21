@@ -1,3 +1,5 @@
+# If you do not need to use cuda, you can start from official Ubuntu image,
+# which can be found in https://hub.docker.com/_/ubuntu
 FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
 
 ARG HOME=/root
